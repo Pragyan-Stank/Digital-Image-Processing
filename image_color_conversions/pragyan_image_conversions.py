@@ -15,7 +15,6 @@ plt.title('Original Image')
 plt.axis('off')
 
 
-
 # Convert to Grayscale (manual)
 def to_grayscale(img):
     gray = (0.2989 * img[:, :, 2] + 0.5870 * img[:, :, 1] + 0.1140 * img[:, :, 0]).astype(np.uint8)
