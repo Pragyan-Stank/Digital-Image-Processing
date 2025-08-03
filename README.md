@@ -1,31 +1,34 @@
-# Digital Image Processing
+# Digital Image Processing (Python)
 
-This repository contains basic MATLAB programs related to Digital Image Processing.
+This repository contains basic Python programs that demonstrate core digital image processing techniques by manually implementing grayscale conversion, black & white conversion, and color channel removal—**without using OpenCV’s predefined high-level functions** like `cv2.cvtColor()`.
 
-The goal is to understand how image operations like grayscale conversion, black & white conversion, and channel manipulation work by writing custom functions without using built-in image processing functions like `rgb2gray` or `im2bw`.
+## 🔍 Objective
 
-## Contents
+To help understand how fundamental image operations work under the hood by building them from scratch using only basic NumPy operations.
 
-- Convert RGB image to grayscale manually
-- Convert grayscale image to black & white using a threshold
-- Remove a specific color channel (Red, Green, or Blue) from an image
-- Display all results using simple MATLAB code
+---
 
-## Files
+## 🧾 Features
 
-- `main.m` – Runs the complete program
-- `toGrayscale.m` – Converts RGB image to grayscale
-- `toBlackWhite.m` – Converts grayscale image to black & white
-- `removeChannel.m` – Removes a selected color channel (R/G/B)
-- `auto.jpg` – Sample input image
+- ✅ Convert RGB image to grayscale manually (weighted sum of R, G, B)
+- ✅ Convert grayscale image to black & white using thresholding
+- ✅ Remove a specific color channel (Red, Green, or Blue)
+- ✅ Display all images using `matplotlib.pyplot`
 
-## How to Use
 
-1. Open the files in MATLAB.
-2. Make sure `your_image.jpg` is in the same folder.
-3. Run `main.m` to see the results.
 
-## Note
+## 🚀 How to Run
 
-All operations are done without using predefined image processing functions like `rgb2gray`, `im2bw`, or `imshow`.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/digital-image-processing-python.git
+   cd digital-image-processing-python
+2. Install dependencies:
+   ```bash
+   pip install numpy opencv-python matplotlib
+3. Run the project:
+   ```bash
+   python main.py
+
+
 
