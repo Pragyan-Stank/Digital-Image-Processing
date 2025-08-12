@@ -1,10 +1,10 @@
 # Digital Image Processing (Python)
 
-This repository contains basic Python programs that demonstrate core digital image processing techniques by manually implementing grayscale conversion, black & white conversion, and color channel removal—**without using OpenCV’s predefined high-level functions** like `cv2.cvtColor()`.
+This repository contains basic Python programs that demonstrate core digital image processing techniques.
 
 ## 🔍 Objective
 
-To help understand how fundamental image operations work under the hood by building them from scratch using only basic NumPy operations.
+To help understand how fundamental image operations work under the hood by building them from scratch using only basic operations.
 
 ---
 
@@ -14,6 +14,8 @@ To help understand how fundamental image operations work under the hood by build
 - ✅ Convert grayscale image to black & white using thresholding
 - ✅ Remove a specific color channel (Red, Green, or Blue)
 - ✅ Display all images using `matplotlib.pyplot`
+- ✅ Perform Bit slicing from scratch
+- ✅ Histogram Equalization
 
 
 
@@ -28,7 +30,7 @@ To help understand how fundamental image operations work under the hood by build
    pip install numpy opencv-python matplotlib
 3. Run the project:
    ```bash
-   python main.py
+   python filname.py
 
 
 
