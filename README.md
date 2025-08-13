@@ -16,6 +16,8 @@ To help understand how fundamental image operations work under the hood by build
 - ✅ Display all images using `matplotlib.pyplot`
 - ✅ Perform Bit slicing from scratch
 - ✅ Histogram Equalization
+- ✅ Huffman Coding
+- ✅ Shannon-Fano Coding
 
 
 
