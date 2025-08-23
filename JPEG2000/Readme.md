@@ -15,16 +15,17 @@ This project implements a **simplified JPEG compression and decompression pipeli
 Make sure you have Python 3 installed, along with the following libraries:
 
 ```bash
-pip install numpy pillow matplotlib scipy
-
+   pip install numpy pillow matplotlib scipy
+```
 
 ## ▶️ Usage
 1. Place an image named `input.jpg` in your working directory.  
 2. Run the script:
    ```bash
    python jpeg_compression.py
+   ```
 3. The script will:
-Compress and decompress the image.
-Save the result as output.jpeg.
-Print original and compressed file sizes.
-Display a side-by-side comparison of the original and reconstructed image.
+   - Compress and decompress the image.
+   - Save the result as output.jpeg.
+   - Print original and compressed file sizes.
+   - Display a side-by-side comparison of the original and reconstructed image.
