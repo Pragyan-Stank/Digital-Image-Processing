@@ -22,7 +22,7 @@ Make sure you have Python 3 installed, along with the following libraries:
 1. Place an image named `input.jpg` in your working directory.  
 2. Run the script:
    ```bash
-   python jpeg_compression.py
+   python JPEG2000_implementation.py
    ```
 3. The script will:
    - Compress and decompress the image.
