@@ -18,7 +18,8 @@ To help understand how fundamental image operations work under the hood by build
 - ✅ Histogram Equalization
 - ✅ Huffman Coding
 - ✅ Shannon-Fano Coding
-
+- ✅ Arithmetic Coding
+- ✅ JPEG2000 compression
 
 
 ## 🚀 How to Run
