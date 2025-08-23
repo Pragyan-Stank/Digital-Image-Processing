@@ -17,7 +17,7 @@ This repository implements **Arithmetic Coding** for image compression and decom
 5. Compare original vs reconstructed and calculate compression ratio.
 
 ## Files
-- `arithmetic_image_coding.ipynb` → Jupyter Notebook with full implementation.
+- `arithmetic_image_coding_implementation.ipynb` → Jupyter Notebook with full implementation.
 - `README.md` → Project description.
 
 ## Running on Google Colab
