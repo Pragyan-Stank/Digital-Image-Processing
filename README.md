@@ -39,7 +39,3 @@ To help understand how fundamental image operations work under the hood by build
 3. Run the project:
    ```
    python filname.py
-```
-
-
-
